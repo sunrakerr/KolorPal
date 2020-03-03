@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>
+            RuneScape Launcher
+        </title>
+        <link rel="stylesheet" type="text/css" href="styling.css"/>
+        
+    </head>
+    <body background="./imgs/disc.png">
+        <header>
+            <div class="option" id="closebut"> &times; </div>
+            <div class="option" id="minbut"> - </div>
+        </header>
+        <Center>
+            <h1>
+               <b> RuneCraft </b>
+            </h1>
+        </Center>
+        
+            <div class="main-card">    
+                        <div class="log-card">
+                  
+                            <center> <h2>L o g i n</h2></center>
+                <form class="login-form">
+                    <label for="email-edit">
+                        Email:
+                    </label>
+                    <input type="email" placeholder="Your Email" class="edit" id="email-edit">
+                    <label for="pass-edit">
+                        Password: 
+                    </label>
+                    <input type="password" placeholder="Your Password" class="edit" id="pass-edit">
+                <center>       <button class="button" id="sub-but" onclick="return false;">Login</button>
+                    <br>
+                    
+                    
+                    <a href="register.html" class="reg-edit" id="reg-link">Not registered? Sign-Up</a>
+                    <div id="ttest"></div>
+                </center>
+                </form>
+        
+            </div>
+        </div>
+        <script> require('./renderer.js')</script>
+        <script> require('./signCon.js')</script>
+        
+        
+    </body>
+    
+</html>
